@@ -1,0 +1,541 @@
+.container{
+    padding: 0px;
+    margin: -10px;
+    background-color:antiquewhite;
+}
+
+.but{
+    float: right;
+}
+
+.but button{
+    width: 150px;
+    height: 50px;
+    margin-right: 60px;
+    margin-top: 3rem;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(246, 208, 158);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color:rgb(69, 90, 48);
+}
+
+
+.h1:hover img{
+    animation: shak 1s;  /* animation */
+
+}
+
+
+@keyframes shak{    /* animation */   /* keyframes */
+
+    10%{
+        transform: rotate(5deg);
+    }
+
+    20%{
+        transform: rotate(-5deg);
+    }
+
+    30%{
+        transform: rotate(5deg);
+    }
+
+    40%{
+        transform: rotate(-5deg);
+    }
+
+
+}
+
+
+
+
+
+.h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    margin-left: 25rem;
+    margin-top: -8rem;
+    font-family:monospace;
+}
+
+
+.listitem{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10rem;
+    font-size: 20px;
+
+}
+
+.link:hover{
+    color: rgb(255, 191, 0);
+}
+
+/* .................................................................... */
+
+.d1{
+    margin-top: 5rem;
+    display: flex;
+    margin-left: 20%;
+    margin: 0px;
+    padding: opx;
+    
+}
+
+.d2{
+    margin-top: 2rem;
+    margin-left: 30px;
+}
+
+.d2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(187, 108, 10);
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.d2 p{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(90, 52, 2);
+    font-size: 19px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.d1 img{
+    margin-left: 50px;
+    position: relative;
+    animation: mymove 5s;
+    
+}
+
+
+@keyframes mymove{    /* animation */   /* keyframes */
+
+    0%{left: 100%;}
+
+    100%{left: 50px;}
+    
+}
+
+.d3 img{
+    position: relative;
+    animation: move 5s;
+}
+
+@keyframes move{    /* animation */   /* keyframes */
+
+    0%{left: -50%;}
+
+    100%{left: 1px;}
+    
+}
+
+
+.d3{
+    margin-top: .15rem;
+    display: flex;
+    padding: opx;
+
+}
+
+.d3 p{
+    margin-top: 2rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 19px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(90, 52, 2);
+    
+}
+
+.d4{
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 5rem;
+}
+
+#if2{
+    margin-left: 20px;
+}
+
+#if3{
+    margin-left: 20px;
+}
+
+#if4{
+    margin-left: 20px;
+}
+
+
+
+.menu h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 70px;
+    color: rgb(161, 152, 100);
+    font-family: 'Sacramento', cursive;
+}
+
+.menu h3{
+    margin-top: 7rem;
+    /* margin-left: -70rem; */
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(79, 78, 22);
+    font-family: 'Sacramento', cursive;
+
+}
+
+.m1{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Handlee', cursive;
+    color: rgb(218, 118, 75);
+}
+
+
+.i1{
+    margin: 20px;
+}
+
+.i1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i2{
+    margin: 20px;
+}
+
+.i2 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i3{
+    margin: 20px;
+}
+
+.i3 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i4{
+    margin: 20px;
+}
+
+.i4 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i5{
+    margin: 20px;
+}
+
+.i5 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i6{
+    margin: 20px;
+}
+
+.i6 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m2{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Handlee', cursive;
+    color: rgb(218, 118, 75);
+}
+
+.i7{
+    margin: 20px;
+}
+
+.i8{
+    margin: 20px;
+}
+
+.i9{
+    margin: 20px;
+}
+
+.i10{
+    margin: 20px;
+}
+
+.i11{
+    margin: 20px;
+}
+
+.i12{
+    margin: 20px;
+}
+
+.menu1 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m3{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Handlee', cursive;
+    color: rgb(218, 118, 75);
+}
+
+.i13{
+    margin: 20px;
+}
+
+.i14{
+    margin: 20px;
+}
+
+.i15{
+    margin: 20px;
+}
+
+.i16{
+    margin: 20px;
+}
+
+.i17{
+    margin: 20px;
+}
+
+.i18{
+    margin: 20px;
+}
+
+
+.m4{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Handlee', cursive;
+    color: rgb(218, 118, 75);
+}
+
+.i19{
+    margin: 20px;
+}
+
+.i20{
+    margin: 20px;
+}
+
+.i21{
+    margin: 20px;
+}
+
+.i22{
+    margin: 20px;
+}
+
+.i23{
+    margin: 20px;
+}
+
+.i24{
+    margin: 20px;
+}
+
+
+.m5{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+
+.m5 a{
+    margin-top: -1rem;
+    /* margin-left: -70rem; */
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(79, 78, 22);
+    font-family: 'Sacramento', cursive;
+    
+}
+
+
+/* ............................loc......................... */
+
+
+.loc h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 50px;
+    color: rgb(161, 152, 100);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.loc iframe{
+    margin-left: 20%;
+    height: 500px;
+    width: 900px;
+
+}
+
+
+/* ................review..................... */
+
+
+.rev h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 50px;
+    color: rgb(161, 152, 100);
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* .................con.......... */
+
+.con h2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(161, 152, 100);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.con{
+    background-color: rgb(255, 230, 200);
+    margin-top: 10%;
+}
+
+.icon-set{
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;  /* horizontally arrange center */
+    align-items: center;   /* vertically arrange center */
+    /* to align item exact centre apply display justify and align  */
+
+}
+
+.icon, .up-arrow{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.icon i{
+    font-size: 30px;
+    color: rgb(33, 69, 57);
+}
+
+.icon:hover{
+    background-image: linear-gradient(to top left, rgb(249, 248, 248), rgb(161, 152, 100));
+}
+
+.icon:hover i{
+    color: white;
+    animation: shake 0.75s;  /* animation */
+
+}
+
+
+@keyframes shake{    /* animation */   /* keyframes */
+
+    10%{
+        transform: rotate(15deg);
+    }
+
+    20%{
+        transform: rotate(-15deg);
+    }
+
+    30%{
+        transform: rotate(15deg);
+    }
+
+    40%{
+        transform: rotate(-15deg);
+    }
+
+
+}
+
+.up-arrow {
+    float: right;  /* set to right */
+    margin: 0px 10px 50px 0px;
+    background-image: linear-gradient(to top left, rgb(249, 248, 248), rgb(161, 152, 100));
+    margin-top: -60px;
+}
+
+
+.up-arrow:hover a{
+    color: white;
+}
+
+#call{
+    text-decoration: none;
+    color: rgb(98, 98, 234);
+    margin-top: 5%;
+}
+
+#p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
